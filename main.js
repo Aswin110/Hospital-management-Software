@@ -14,3 +14,13 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 register();
+
+//form
+
+const formDemo = document.getElementById("form");
+formDemo.addEventListener("submit", function (e) {
+  e.preventDefault();
+  console.log(e);
+  alert("Thank you! will contact you in one or two working days.");
+  formDemo.reset();
+});
