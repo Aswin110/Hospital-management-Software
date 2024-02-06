@@ -1,3 +1,5 @@
+import { register } from "swiper/element/bundle";
+
 document.addEventListener("DOMContentLoaded", function () {
   const toggleButton = document.querySelector(
     '[data-collapse-toggle="navbar-default"]'
@@ -10,3 +12,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+register();

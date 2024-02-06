@@ -13,19 +13,16 @@
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
       >
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img
-            src="./public/images/hospital-logo.svg"
-            class="h-20"
-            alt="Logo"
-          />
+          <img src="/images/hospital-logo.svg" class="h-20" alt="Logo" />
           <span
-            class="self-center text-2xl font-semibold whitespace-nowrap"
-          ></span>
+            class="hidden self-center text-2xl font-semibold whitespace-nowrap md:block"
+            >Hospital Management</span
+          >
         </a>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -46,7 +43,7 @@
             />
           </svg>
         </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <div class="hidden w-full lg:block lg:w-auto" id="navbar-default">
           <ul
             class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white"
           >
@@ -98,6 +95,71 @@
         </div>
       </div>
     </nav>
+
+    <article>
+      <div class="block md:grid p-5 md:p-20 md:gap-20 md:grid-cols-2">
+        <div class="">
+          <div
+            class="self-center text-4xl md:text-6xl font-semibold whitespace-nowrap"
+          >
+            <h1>One Stop</h1>
+            <h1>Digital <span class="text-orange-600">Healthcare</span></h1>
+            <h1>Solutions</h1>
+          </div>
+          <div class="text-gray-600 md:text-2xl">
+            Empowering Healthcare Stakeholders with Cutting Edge and Innovative
+            Software Solutions
+          </div>
+          <div class="py-5">
+            <button
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            >
+              Book a demo
+            </button>
+            <button
+              class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+            >
+              Contact Us
+            </button>
+          </div>
+        </div>
+
+        <img
+          class="rounded-lg max-h-72 max-w-72 mx-auto"
+          src="/images/doctor5.png"
+          alt="doctor pic"
+        />
+      </div>
+    </article>
+
+    <article class="max-w-200 my-20">
+      <swiper-container
+        slides-per-view="1"
+        mousewheel-force-to-axis="true"
+        speed="100"
+        loop="true"
+        css-mode="true"
+        navigation="true"
+        pagination="true"
+        thumbs-swiper=".my-thumbs"
+      >
+        <swiper-slide
+          ><img
+            class="mx-auto max-w-200 max-h-72 object-cover rounded-lg"
+            src="/images/carousel1.jpeg"
+        /></swiper-slide>
+        <swiper-slide>
+          <img
+            class="mx-auto max-w-200 max-h-72 object-cover rounded-lg"
+            src="/images/carousel2.jpg"
+        /></swiper-slide>
+        <swiper-slide
+          ><img
+            class="mx-auto max-w-200 max-h-72 object-cover rounded-lg"
+            src="/images/carousel3.jpg"
+        /></swiper-slide>
+      </swiper-container>
+    </article>
 
     <footer class="bg-white rounded-lg shadow m-4">
       <div
