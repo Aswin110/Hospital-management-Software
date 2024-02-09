@@ -2,6 +2,8 @@
 
 Hi! welcome
 
+Project Link: https://hospital-management-software-brown.vercel.app/
+
 # To deploy the project
 
 Clone the project using the URL.
@@ -13,6 +15,9 @@ Clone the project using the URL.
 ## Run the project
 
     npm run dev
+
+
+    most probably this will be the local host link http://localhost:5173/
 
 ## Project
 
