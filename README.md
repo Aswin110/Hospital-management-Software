@@ -16,8 +16,7 @@ Clone the project using the URL.
 
     npm run dev
 
-
-    most probably this will be the local host link http://localhost:5173/
+most probably this will be the local host link http://localhost:5173/
 
 ## Project
 
